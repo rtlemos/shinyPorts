@@ -1,0 +1,12 @@
+name: shinyPorts
+title: shinyPorts
+username:
+account: rcsuite
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 282821
+bundleId: 1225790
+url: https://rcsuite.shinyapps.io/shinyPorts/
+when: 1518761504.50632
+asMultiple: FALSE
+asStatic: FALSE

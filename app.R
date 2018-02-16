@@ -83,7 +83,7 @@ ui = pageWithSidebar(
 
 server = function(input, output, session) {
 
-  api_key = "AIzaSyAEbcX6TX2zEPOlfBZEygwe9HFPUwvGbPY"
+  api_key = "your-key"
   
   getCode = function(fullName) {
     as.character(countryCodes[which(countryCodes$V1 == fullName), 2])
