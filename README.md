@@ -1,9 +1,9 @@
 # shinyPorts 
 ## Shiny app to address challenge 9 of Fishackaton 2018 
 
-
-
 **TL;DR** This package describes how to build the R Shiny app you can interact with at [https://rcsuite.shinyapps.io/shinyPorts/](https://rcsuite.shinyapps.io/shinyPorts/). The goal is to have an interactive app that lets users consult a database of ports (polygons) on a map, view their characteristics (name, types of vessels), and suggest improvements to the database over a chat room.
+
+##
 
 Part of challenge 9 of [Fishackathon 9](https://hackernest.com/events/san-francisco-usa-fishackathon-2018) was to develop "Tools for crowd-sourcing this solution [i.e., a method to cluster anchorages into ports and assign correct names and characteristics to them], including using publicly available databases, satellite imagery to aid in classification and naming." 
 
