@@ -1,14 +1,14 @@
 # shinyPorts 
 ## Shiny app to address challenge 9 of Fishackaton 2018 
 
-**TL;DR** This package describes how to build the R Shiny app you can interact with at [https://rcsuite.shinyapps.io/shinyPorts/](https://rcsuite.shinyapps.io/shinyPorts/). The goal is to have an interactive app that lets users consult a database of ports (polygons) on a map, view their characteristics (name, types of vessels), and suggest improvements to the database over a chat room.
+**TL;DR** This package describes how to build this [R Shiny app](https://rcsuite.shinyapps.io/shinyPorts/). The goal is to have an interactive app that lets users consult a database of ports (polygons) on a map, view their characteristics (name, types of vessels), and suggest improvements to the database over a chat room.
 
 ##
 
 Part of challenge 9 of [Fishackathon 9](https://hackernest.com/events/san-francisco-usa-fishackathon-2018) was to develop "Tools for crowd-sourcing this solution [i.e., a method to cluster anchorages into ports and assign correct names and characteristics to them], including using publicly available databases, satellite imagery to aid in classification and naming." 
 
 This open source R package attempts to do just that. It takes the port database developed with package [portsModel](https://github.com/rtlemos/portsModel) and deploys a Shiny web app on RStudio's server, 
-[https://www.shinyapps.io](https://www.shinyapps.io), where it becomes available to anyone with access to the internet. The app displays a Google map, along with satellite imagery (activated by Google Map's `Satellite` button) and photos (yellow *Peg Man*). 
+[https://www.shinyapps.io](https://www.shinyapps.io), where it becomes available to anyone with access to the internet. The app displays ports on a Google map, along with satellite imagery (activated by Google Map's `Satellite` button) and photos (yellow *Peg Man*). The URL of the web app is [https://rcsuite.shinyapps.io/shinyPorts/](https://rcsuite.shinyapps.io/shinyPorts/).
 
 ![Fig.1: Graphical user interface.](UI.png)
 
