@@ -24,3 +24,4 @@ Crowd-sourcing of improvements to the ports databased may be possible through th
 
 ![Fig 3: Sending Mumbai's edited encoded polygon for review.](Edits.png)
 
+There's some work still to be done: once the administrator receives an encoded polygon, how can she compare it against the current version and update the database if she decides to accept it?
