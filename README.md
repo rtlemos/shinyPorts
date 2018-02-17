@@ -1,7 +1,7 @@
 # shinyPorts 
 ## Shiny app to address challenge 9 of Fishackaton 2018 
 
-\ 
+
 
 **TL;DR** This package describes how to build the R Shiny app you can interact with at [https://rcsuite.shinyapps.io/shinyPorts/](https://rcsuite.shinyapps.io/shinyPorts/). The goal is to have an interactive app that lets users consult a database of ports (polygons) on a map, view their characteristics (name, types of vessels), and suggest improvements to the database over a chat room.
 
@@ -12,13 +12,12 @@ This open source R package attempts to do just that. It takes the port database 
 
 ![Fig.1: Graphical user interface.](UI.png)
 
-\ 
+
 
 Users can click on ports and see some of their characteristics: nearest World Port Index (WPI) name and distance, nearest Geonames 1000 city name and distance, and Global Fishing Watch (GFW) counts of vessels that frequent the port. More WPI and Geonames 1000 are available but not displayed at the moment.
 
 ![Fig 2: GUI after zooming in to the port of Mumbai and clicking on it.](Mumbai.png)
 
-\ 
 
 Crowd-sourcing of improvements to the ports databased may be possible through the chat room and the flexible mapping of ports. After zooming in to a given port, a user can see that the port is actually a polygon, not just a point. The polygon was based on the clustering of GFW anchorage data, meaning that it may not correspond to the actual, physical port. To correct this, the user can drag the points that make up the polygon, and notice that the encoded coordinates (`encoded polygon`) change accordingly. The user can then copy-paste the encoded polygon onto the chat room prompt, and send it over to the administrator, who will review the proposed shape. Users can also suggest new names for ports, as well as any enhancements to the database or UI. 
 
