@@ -20,7 +20,7 @@ Users can click on ports and see some of their characteristics: nearest World Po
 
 ##
 
-Crowd-sourcing of improvements to the ports databased may be possible through the chat room and the flexible mapping of ports. After zooming in to a given port, a user can see that the port is actually a polygon, not just a point. The polygon was based on the clustering of GFW anchorage data, meaning that it may not correspond to the actual, physical port. To correct this, the user can drag the points that make up the polygon, and notice that the encoded coordinates (`Encoded polygon`) change accordingly. The user can then copy-paste the encoded polygon onto the chat room prompt, and send it over to the administrator, who will review the proposed shape. Users can also suggest new names for ports, as well as any enhancements to the database or UI. 
+Crowd-sourcing of improvements to the ports database may be possible through the chat room and the flexible mapping of ports. After zooming in to a given port, a user can see that the port is actually a polygon, not just a point. The polygon was based on the clustering of GFW anchorage data, meaning that it may not correspond to the actual, physical port. To correct this, the user can drag the points that make up the polygon, and notice that the encoded coordinates (`Encoded polygon`) change accordingly. The user can then copy-paste the encoded polygon onto the chat room prompt, and send it over to the administrator, who will review the proposed shape. Users can also suggest new names for ports, as well as any enhancements to the database or UI. 
 
 ![Fig 3: Sending Mumbai's edited encoded polygon for review.](Edits.png)
 
