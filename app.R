@@ -14,7 +14,11 @@ vars = reactiveValues(chat = NULL, users = NULL)
 if (file.exists("chat.Rds")){
   vars$chat = readRDS("chat.Rds")
 } else {
-  vars$chat = "Welcome to the Global Ports Database!"
+  vars$chat = "Welcome to the Global Ports Database! 
+  Select your country of interest and zoom in to see the ports. If their shape needs improvement, 
+  please edit the points, then copy the encoded polygon and paste it in the chat room.
+  The room administrator will discuss the suggested shape with you. If the port's name is also incorrect, 
+  please write the name you find more appropriate. Thank you for your interest and collaboration!"
 }
 
 #' Get the prefix for the line to be added to the chat window. Usually a newline
